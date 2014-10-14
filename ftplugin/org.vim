@@ -25,6 +25,10 @@ if ! exists('b:did_ftplugin')
 		setlocal textwidth=77
 	endif
 
+    " Wrap normal text according to textwidth (since vim doesn't do soft
+    " wrapping nicely).
+    setlocal formatoptions+=t
+
 	" expand tab for counting level of checkbox
 	setlocal expandtab
 
