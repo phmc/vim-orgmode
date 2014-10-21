@@ -336,6 +336,7 @@ if exists('g:loaded_SyntaxRange')
   call SyntaxRange#Include('#+BEGIN_SRC\ ruby', '#+END_SRC', 'ruby', 'comment')
   " call SyntaxRange#Include('#+BEGIN_SRC\ lua', '#+END_SRC', 'lua', 'comment')
   " call SyntaxRange#Include('#+BEGIN_SRC\ lisp', '#+END_SRC', 'lisp', 'comment')
+  call SyntaxRange#Include('#+BEGIN_SRC\ yang', '#+END_SRC', 'yang', 'comment')
 
   " LaTeX
   call SyntaxRange#Include('\\begin[.*]{.*}', '\\end{.*}', 'tex')
